@@ -1,7 +1,7 @@
 # First Assignment Boolean logic & Iterative Programming
 #1. program for recommendation according to the weather forecast 
 
-weather = int(input("How much is the todays' temperature in celcius? "))
+weather = int(input("How much is the todays' temperature in celsius? "))
 
 if weather <= 6:
     print ("You should wear a pair of gloves")
@@ -55,10 +55,10 @@ if rain <50 :
     print ("No need to take your umbrella ")
 
 elif rain >=50 and rain <100:
-    print ("Its better to take umbrella")
+    print ("It is better to take an umbrella")
 
 elif rain == 100:
-    print ("Definetly Take your umbrella ")
+    print ("Definitly Take your umbrella ")
 
 else: 
     print("wrong probability")
