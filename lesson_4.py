@@ -9,6 +9,7 @@ user_input1 = str(input("Enter your repetition phrase: "))
 print(user_input1 * 3)
 
 
+
 # Task 3
 namestr1 = str(input("Enter first string: "))
 namestr2 = str(input("Enter second string: "))
@@ -18,18 +19,14 @@ else:
     print(" Strings are not equal")
 
 
+
 # Task 4
 
 ln_string = str(input("Enter the sentence you want :"))
 split_words = ln_string.split()
 longest_word = max(split_words, key=len)
+print( "The longest word in the string is:",longest_word, " and Its length is:", len(longest_word),)
 
-print(
-    "The longest word in the string is:",
-    longest_word,
-    " and Its length is:",
-    len(longest_word),
-)
 
 
 # Task 5
