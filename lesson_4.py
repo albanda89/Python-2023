@@ -24,8 +24,19 @@ ln_string = str(input("Enter the sentence you want :"))
 split_words = ln_string.split()
 longest_word = max(split_words, key=len)
 
-print("The longest word in the string is:", longest_word , " and Its length is:", len(longest_word))
+print(
+    "The longest word in the string is:",
+    longest_word,
+    " and Its length is:",
+    len(longest_word),
+)
 
 
 # Task 5
 
+my_string = "Ice bear is a bad developer. He should not code"
+# Replace 'bad' with 'good'
+my_string = my_string.replace("bad", "good")
+# Remove 'not'
+my_string = my_string.replace(" not", "")
+print("Modified string:", my_string)
