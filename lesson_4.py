@@ -1,4 +1,5 @@
-# Task_1
+""" Task_1."""
+
 user_input = input("Enter a string: ")
 length = len(user_input)
 print("Length of the string is:", length)
@@ -26,7 +27,6 @@ ln_string = str(input("Enter the sentence you want :"))
 split_words = ln_string.split()
 longest_word = max(split_words, key=len)
 print( "The longest word in the string is:",longest_word, " and Its length is:", len(longest_word),)
-
 
 
 # Task 5
