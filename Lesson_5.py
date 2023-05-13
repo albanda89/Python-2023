@@ -84,6 +84,7 @@ def start_washing():
     return energy_consumed, time_consumed
 
 
+# trunk-ignore(ruff/F811)
 def fill_water(energy, time, eco_mode):
     if eco_mode == "eco":
         energy += 10
@@ -96,6 +97,7 @@ def fill_water(energy, time, eco_mode):
     return energy, time
 
 
+# trunk-ignore(ruff/F811)
 def heat_water(energy, time, eco_mode):
     if eco_mode == "eco":
         energy += 20
@@ -108,6 +110,8 @@ def heat_water(energy, time, eco_mode):
     return energy, time
 
 
+
+# trunk-ignore(ruff/F811)
 def wash_clothes(energy, time, eco_mode):
     if eco_mode == "eco":
         energy += 40
@@ -120,6 +124,7 @@ def wash_clothes(energy, time, eco_mode):
     return energy, time
 
 
+# trunk-ignore(ruff/F811)
 def drain_water(energy, time, eco_mode):
     energy += 5
     time += 5
