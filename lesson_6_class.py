@@ -3,6 +3,6 @@ def alphabeticalorder(str1,str2):
         return (str1,str2)
 
     else:
-        (str2,str1)
+        print (str2,str1)
 
-alphabeticalorder (Max,Justice )
+alphabeticalorder ("Max","Justice" )
