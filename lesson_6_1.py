@@ -22,9 +22,8 @@ if __name__ == "__main__":
     main()
 
 
-
-# Local Variables =  discount  ,total_price  and discouned_price 
-# Enclouser is   
+# Local Variables is discouned_price  
+# Enclouser is discount  ,total_price    
 # there is no Globale varible 
  
 
