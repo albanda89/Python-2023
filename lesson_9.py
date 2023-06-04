@@ -8,7 +8,7 @@ class Vehicle:
     def seating_capacity(self, capacity):
         return f"The seating capacity of {self.name} is {capacity}."
 
-car = Vehicle(200, 10000, "Tesla Model S")
+car = Vehicle(200, 100000, "volkswagen golf")
 print(car.seating_capacity(5))
 
 class Bus(Vehicle):
